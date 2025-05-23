@@ -28,7 +28,7 @@ class _ListarFilmesState extends State<ListarFilmes> {
       builder: (BuildContext context) {
         return AlertDialog(
           title: const Text(
-            "Integrantes da Equipe",
+            "Equipe Heineken",
             textAlign: TextAlign.center,
             style: TextStyle(fontWeight: FontWeight.bold),
           ),
@@ -43,12 +43,12 @@ class _ListarFilmesState extends State<ListarFilmes> {
               Divider(),
               ListTile(
                 leading: Icon(Icons.person),
-                title: Text("Elder Oliveira"),
+                title: Text("Elder de Oliveira Tavares"),
               ),
               Divider(),
               ListTile(
                 leading: Icon(Icons.person),
-                title: Text("Wellingtom Gadelha"),
+                title: Text("Wellington Gadelha de Sousa"),
               ),
             ],
           ),
