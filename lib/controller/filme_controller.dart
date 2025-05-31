@@ -10,10 +10,10 @@ class FilmeController{
     return _service.filmes; //manda a lista pelo controller
   }
 
-  void adicionar(int id, String titulo, String url_imagem, String genero, String faixa_etaria,
+  void adicionar(int id, String titulo, String urlImagem, String genero, String faixaEtaria,
       Duration duracao, double nota, String descricao, int ano){
-    _service.adicionar(Filme(id: id, titulo: titulo, url_imagem: url_imagem, genero: genero,
-      faixa_etaria: faixa_etaria, duracao: duracao, nota: nota, descricao: descricao, ano: ano));
+    _service.adicionar(Filme(id: id, titulo: titulo, url_imagem: urlImagem, genero: genero,
+      faixa_etaria: faixaEtaria, duracao: duracao, nota: nota, descricao: descricao, ano: ano));
   }
 
   void deletarFilme(Filme filme) => _service.deletarFilme(filme);

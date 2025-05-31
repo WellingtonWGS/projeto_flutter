@@ -5,7 +5,7 @@ import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 class DetalhesFilme extends StatelessWidget {
   final Filme filme;
 
-  const DetalhesFilme({Key? key, required this.filme}) : super(key: key);
+  const DetalhesFilme({super.key, required this.filme});
 
   String formatDuration(Duration duration) {
     String twoDigits(int n) => n.toString().padLeft(2, "0");
